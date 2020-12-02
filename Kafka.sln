@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Framework", "Kafka.Framework\Kafka.Framework.csproj", "{8BC59B88-364C-4159-AC91-902B82F77BF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSerilization", "examples\StringSerilization\StringSerilization.csproj", "{D2159C89-764F-4E70-BCE0-B98285940C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F95D25D9-0F8A-46C9-A233-9F0EC98BE500}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoBufSerialization", "examples\ProtoBufSerialization\ProtoBufSerialization.csproj", "{596E6BB4-53F1-4BDE-827A-79DDE02D01C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC59B88-364C-4159-AC91-902B82F77BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC59B88-364C-4159-AC91-902B82F77BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC59B88-364C-4159-AC91-902B82F77BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC59B88-364C-4159-AC91-902B82F77BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2159C89-764F-4E70-BCE0-B98285940C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2159C89-764F-4E70-BCE0-B98285940C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2159C89-764F-4E70-BCE0-B98285940C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2159C89-764F-4E70-BCE0-B98285940C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95D25D9-0F8A-46C9-A233-9F0EC98BE500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95D25D9-0F8A-46C9-A233-9F0EC98BE500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95D25D9-0F8A-46C9-A233-9F0EC98BE500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95D25D9-0F8A-46C9-A233-9F0EC98BE500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596E6BB4-53F1-4BDE-827A-79DDE02D01C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596E6BB4-53F1-4BDE-827A-79DDE02D01C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596E6BB4-53F1-4BDE-827A-79DDE02D01C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596E6BB4-53F1-4BDE-827A-79DDE02D01C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE4365F7-5564-4CE6-BE42-2331D968D4F7}
+	EndGlobalSection
+EndGlobal

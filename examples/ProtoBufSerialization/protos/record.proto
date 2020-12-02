@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ProtoBufSerialization;
+
+import "google/protobuf/any.proto";
+import "google/protobuf/timestamp.proto";
+
+message Record {
+    string Id = 1;
+    google.protobuf.Timestamp CreatedDate = 2;
+    google.protobuf.Any Payload = 3;
+}

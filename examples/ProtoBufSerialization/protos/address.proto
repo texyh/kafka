@@ -1,0 +1,9 @@
+syntax = "proto3";
+package ProtoBufSerialization;
+
+message Address {
+    string Street = 1;
+    string State = 2;
+    string ZipCode = 3;
+    int32 PersonId = 4;
+}
